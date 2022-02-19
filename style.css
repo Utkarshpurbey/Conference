@@ -1,0 +1,300 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+}
+
+.main_container
+{
+  padding: 1%
+}
+
+.nav-item{
+  color: #0d2d62 !important;
+  font-size: 120%;
+    display: inline-block;
+}
+
+.righttime {
+  display: inline-block;
+  width: 100%;
+}
+
+.righttime h3 {
+  margin-top: 2%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.righttime h1 {
+  font-size: 4rem;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.countdown {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.countdown h1 {
+  text-align: left;
+  font-size: 5rem;
+}
+
+.aboutspeaker {
+  margin-top: 2.5%;
+  text-align: center;
+  font-size: 3rem;
+}
+.cheif{
+  margin-top: 15%;
+}
+.cheif,.names h2
+{
+  color:#009879;
+}
+.hosted {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 2%;
+}
+@media (max-width:480px) {
+  .righttime h1
+  {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .countdown
+  {
+    margin-top: 10%;
+    font-size: 2rem;
+  }
+.hosted
+{
+  margin-top: 5%;
+}
+.confrencemaindiv
+{
+  padding: 4%;
+}
+}
+
+@media (min-width:1281px) {
+  .grid_container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 4%;
+  }
+
+  .confrencemaindiv {
+    background-color: #f1f1ef;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3%;
+    grid-gap: 2%;
+    margin-top: 2%;
+  }
+
+  .leftperson {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-gap: 5%;
+    padding: 2%;
+    border: 1px solid black;
+  }
+
+  .rightperson {
+      background-color: white;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-gap: 5%;
+    padding: 2%;
+    border: 1px solid black;
+  }
+
+  .confrencemaindiv p {
+    font-size: 1.25rem;
+  }
+
+  .cheif {
+    margin-top: 4%;
+    text-align: center;
+    font-size: 4rem;
+  }
+}
+@media (max-width:1280px) {
+  .cheif{
+    text-align: center;
+    font-size: 2rem;
+  }
+
+}
+
+.rightperson, .leftperson {
+  padding: 3%;
+  border: 1px solid black;
+}
+
+.propic {
+  height: 100%;
+  width: 100%;
+}
+.names{
+  margin-top: 2.5%;
+}
+.names h1
+{
+  font-size: 1.25rem;
+}
+
+.main_footer
+{
+background-color:#282d32;
+color:#f0f9ff;
+}
+
+.main_footer ul
+{
+
+  list-style-type: none;
+
+}
+.about
+{
+padding: 10%;
+
+}
+.about h1,p
+{
+  font-size: .7rem;
+}
+.grid_
+{
+  display: grid;
+  grid-template-columns: 31fr 1fr;
+  grid-gap: 0%;
+
+}
+.contact
+{
+  text-align: center;
+  font-size: 1rem;
+}
+td{
+  padding: 10px;
+  border: 1px solid black;
+       border-collapse: collapse;
+}
+ @media (min-width: 1280px) {
+   .grid_
+   {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 40%;
+     height: 30%;
+   }
+
+   .about h1,p
+   {
+     font-size: 1rem;
+   }
+   .about
+   {
+     padding-left: 2%;
+     padding-top: 2%;
+
+   }
+   td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+
+ }
+ .made
+ {
+   text-align: center;
+ }
+
+ #lab_social_icon_footer {
+  padding: 20px 0;
+  font-size: 16px;
+  opacity: 0.75;
+  text-align: center;
+
+}
+
+#lab_social_icon_footer a {
+  color: white;
+}
+
+#lab_social_icon_footer .social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+#lab_social_icon_footer .social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+/*
+    Multicoloured Hover Variations
+*/
+
+#lab_social_icon_footer #social-fb:hover {
+  color: #3B5998;
+}
+
+#lab_social_icon_footer #social-tw:hover {
+  color: #4099FF;
+}
+
+#lab_social_icon_footer #social-gp:hover {
+  color: #d34836;
+}
+
+#lab_social_icon_footer #social-em:hover {
+  color: #f39c12;
+}
+
+.righttime p {
+  font-weight: 500px;
+
+  text-align: center;
+  font-size: 200%;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+    animation: shine 5s linear infinite;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+}
+
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
